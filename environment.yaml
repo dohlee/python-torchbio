@@ -1,0 +1,13 @@
+name: torchbio
+channels:
+    - conda-forge
+    - pytorch
+    - bioconda
+    - defaults
+dependencies:
+    - biopython
+    - pytorch
+    - tqdm
+    - cookiecutter
+    - bumpversion
+    - tox
